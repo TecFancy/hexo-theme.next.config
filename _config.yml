@@ -822,6 +822,11 @@ mermaid:
   # Available themes: default | dark | forest | neutral
   theme: forest
 
+# Sitemap
+sitemap:
+    path: sitemap.xml
+    rel: false
+
 
 # ---------------------------------------------------------------
 # Animation Settings
