@@ -127,8 +127,6 @@ menu:
   archives: /archives/ || archive
   programming: /programming/ || code
   #schedule: /schedule/ || calendar
-  work: /work/ || vcard
-  budget: /budget/ || money
   #commonweal: /404/ || heartbeat
   sitemap: /sitemap.xml || sitemap
 
