@@ -476,14 +476,14 @@ exturl: false
 # github.ruofei.site
 # google_site_verification: Tol_kda1oGLpp_Y6MnQRbDI7yuDFdwS-UPS3YHUe55g
 # ruofei.site
-google_site_verification: Tol_kda1oGLpp_Y6MnQRbDI7yuDFdwS-UPS3YHUe55g
+google_site_verification: Tol_kda1oGLpp_Y6MnQRbDI7yuDFdwS-UPS3YHUe55g # rf.wangchn@gmail.com | bzsjxhywrf@gmail.com
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
 # github.ruofei.site
 # bing_site_verification: 89CBB0BA5CCEC2C2C89C693CA3AEA794
 # ruofei.site
-bing_site_verification: E9914CD56ECF657BB1D123AA72BBDDB0
+bing_site_verification: E9914CD56ECF657BB1D123AA72BBDDB0 # rf.wangchn@outlook.com
 
 # Yandex Webmaster tools verification.
 # See: https://webmaster.yandex.ru
@@ -491,7 +491,10 @@ yandex_site_verification: 4e0929e8de9f26c2
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification: 1cUs6ygl16
+# github.ruofei.site
+# baidu_site_verification: 1cUs6ygl16
+# ruofei.site
+baidu_site_verification: iqtrXTu0gF
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: true
