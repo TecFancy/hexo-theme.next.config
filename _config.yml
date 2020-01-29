@@ -487,7 +487,10 @@ bing_site_verification: E9914CD56ECF657BB1D123AA72BBDDB0 # rf.wangchn@outlook.co
 
 # Yandex Webmaster tools verification.
 # See: https://webmaster.yandex.ru
-yandex_site_verification: 4e0929e8de9f26c2
+# github.rufoei.site
+# yandex_site_verification: 4e0929e8de9f26c2
+# ruofei.site
+yandex_site_verification: 38d04de0ea9967cd # Login as Google account with rf.wangchn@gmail.com
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
