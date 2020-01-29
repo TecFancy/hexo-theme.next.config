@@ -655,9 +655,9 @@ livere_uid: # <your_uid>
 gitalk:
   enable: true
   github_id: smpower # GitHub repo owner
-  repo: github.ruofei.site.gitalk # Repository name to store issues
-  client_id: 160ac0c01c2fcb4ba40e # GitHub Application Client ID
-  client_secret: 8e23ea664988f94df7464ddcbe09dad01bc2c18f # GitHub Application Client Secret
+  repo: ruofei.site.gitalk # Repository name to store issues
+  client_id: 57d78aea7ea945e16976 # GitHub Application Client ID
+  client_secret: 25953ac8037cf8fb54c53c8d958017215f204991 # GitHub Application Client Secret
   admin_user: ['smpower'] # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
