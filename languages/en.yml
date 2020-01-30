@@ -37,6 +37,9 @@ post:
   views: Views
   related_posts: Related Posts
   copyright:
+    title: Post title
+    date: Post date
+    updated: Post updated
     author: Post author
     link: Post link
     license_title: Copyright Notice
