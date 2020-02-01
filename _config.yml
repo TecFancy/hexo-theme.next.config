@@ -681,7 +681,7 @@ rating:
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
-add_this_id: ra-5e3282201b843dd7
+# add_this_id: ra-5e3282201b843dd7
 
 
 # ---------------------------------------------------------------
@@ -697,7 +697,7 @@ google_analytics:
   only_pageview: false
 
 # Baidu Analytics
-baidu_analytics: b13755a6de86c216ccfa39dc56ba14dc # <app_id>
+# baidu_analytics: b13755a6de86c216ccfa39dc56ba14dc # <app_id>
 
 # Growingio Analytics
 growingio_analytics: # <project_id>
