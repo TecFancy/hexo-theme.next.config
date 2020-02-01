@@ -838,8 +838,10 @@ mermaid:
 
 # Sitemap
 sitemap:
-    path: sitemap.xml
-    rel: false
+  path: sitemap.xml
+  rel: false
+baidusitemap:
+  path: baidusitemap.xml
 
 
 # ---------------------------------------------------------------
