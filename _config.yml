@@ -840,8 +840,6 @@ mermaid:
 sitemap:
   path: sitemap.xml
   rel: false
-baidusitemap:
-  path: baidusitemap.xml
 
 
 # ---------------------------------------------------------------
