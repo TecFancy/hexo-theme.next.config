@@ -106,8 +106,8 @@ creative_commons:
 # Schemes
 # scheme: Muse
 # scheme: Mist
-scheme: Pisces
-# scheme: Gemini
+# scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -126,6 +126,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   programming: /programming/ || code
+  books: /books/ || book
   #schedule: /schedule/ || calendar
   #commonweal: /404/ || heartbeat
   sitemap: /sitemap.xml || sitemap
