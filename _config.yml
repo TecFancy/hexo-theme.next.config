@@ -126,7 +126,6 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   programming: /programming/ || code
-  books: /books/ || book
   #schedule: /schedule/ || calendar
   #commonweal: /404/ || heartbeat
   sitemap: /sitemap.xml || sitemap
