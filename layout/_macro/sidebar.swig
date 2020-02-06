@@ -38,23 +38,27 @@
       </div>
 
       {%- if theme.back2top.enable and theme.back2top.sidebar %}
-        <div class="back-to-top motion-element">
-          <i class="fa fa-arrow-up"></i>
+        <div class="back-to-top motion-element" style="margin-top: 18px; display: flex; justify-content: center; align-items: center;">
+          <i class="fa fa-arrow-up" style="padding-right: 3px; margin-bottom: 1px;"></i>
           <span>0%</span>
         </div>
       {%- endif %}
 
-      {% if site.tags.length > 1 %}
+      {%- if site.tags.length > 1 %}
         <script type="text/javascript" charset="utf-8" src="{{ url_for('/js/tagcloud.js') }}"></script>
         <script type="text/javascript" charset="utf-8" src="{{ url_for('/js/tagcanvas.js') }}"></script>
-        <div class="widget-wrap">
-          <div id="myCanvasContainer" class="widget tagcloud">
-            <canvas width="220" height="250" id="resCanvas" style="width=100%">
+        <div class="widget-wrap" style="padding-top: 24px;">
+          <div id="myCanvasContainer" class="widget tagcloud" style="display: flex; justify-content: center; align-items: center;">
+            <canvas width="200" height="200" id="resCanvas" style="width=100%">
               {{ list_tags() }}
             </canvas>
           </div>
         </div>
-      {% endif %}
+      {%- endif %}
+      
+      {%- if theme.diy_clock.clock %}
+        {%- include '../_custom/clock.swig' %}
+      {%- endif %}
 
     </div>
   </aside>
