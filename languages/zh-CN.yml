@@ -15,6 +15,10 @@ menu:
   schedule: 日程表
   work: 工作
   budget: 收支
+  diary: 日记
+  books: 图书
+  novels: 小说
+  supermemo: SuperMemo
   sitemap: 站点地图
   commonweal: 公益 404
 sidebar:
@@ -34,7 +38,10 @@ post:
   views: 阅读次数
   related_posts: 相关文章
   copyright:
+    title: 本文标题
     author: 本文作者
+    date: 发布时间
+    updated: 最后更新
     link: 本文链接
     license_title: 版权声明
     license_content: "本博客所有文章除特别声明外，均采用 %s 许可协议。转载请注明出处！"

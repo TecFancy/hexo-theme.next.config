@@ -15,6 +15,10 @@ menu:
   schedule: Schedule
   work: Work
   budget: Budget
+  diary: Diary
+  books: Books
+  novels: Novels
+  supermemo: SuperMemo
   sitemap: Sitemap
   commonweal: Commonweal 404
 
@@ -36,6 +40,9 @@ post:
   views: Views
   related_posts: Related Posts
   copyright:
+    title: Post title
+    date: Post date
+    updated: Post updated
     author: Post author
     link: Post link
     license_title: Copyright Notice

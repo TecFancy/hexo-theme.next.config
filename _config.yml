@@ -17,7 +17,7 @@ cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -49,7 +49,7 @@ favicon:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2018
 
   # Icon between year and copyright info.
   icon:
@@ -106,8 +106,8 @@ creative_commons:
 # Schemes
 # scheme: Muse
 # scheme: Mist
-scheme: Pisces
-# scheme: Gemini
+# scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -126,6 +126,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   programming: /programming/ || code
+  supermemo: /supermemo/ || trophy
   #schedule: /schedule/ || calendar
   #commonweal: /404/ || heartbeat
   sitemap: /sitemap.xml || sitemap
@@ -133,7 +134,7 @@ menu:
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: true
+  badges: false
 
 
 # ---------------------------------------------------------------
@@ -256,11 +257,12 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
-  separated_meta: true
-  item_text_post: true
-  item_text_total: false
+  separated_meta: true # 是否另起一行（true的话不和发表时间等同一行）
+  item_text_post: true # 首页文章统计数量前是否显示文字描述（本文字数、阅读时长）
+  item_text_total: false # 页面底部统计数量前是否显示文字描述（站点总字数、站点阅读时长）
   awl: 4
   wpm: 275
+  suffix: mins.
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: true
@@ -281,7 +283,7 @@ reward:
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
 related_posts:
-  enable: false
+  enable: true
   title: # Custom header, leave empty to use the default one
   display_in_home: false
   params:
@@ -294,7 +296,7 @@ related_posts:
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
-  enable: true
+  enable: false
   url: https://github.com/smpower/smpower.github.io/tree/hexo/source/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit
 
@@ -368,9 +370,9 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
@@ -462,7 +464,7 @@ disable_baidu_transformation: false
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post / page titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, site-subtitle will be added to index page.
 # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
@@ -473,19 +475,31 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification: Tol_kda1oGLpp_Y6MnQRbDI7yuDFdwS-UPS3YHUe55g
+# github.ruofei.site
+# google_site_verification: Tol_kda1oGLpp_Y6MnQRbDI7yuDFdwS-UPS3YHUe55g
+# ruofei.site
+google_site_verification: Tol_kda1oGLpp_Y6MnQRbDI7yuDFdwS-UPS3YHUe55g # rf.wangchn@gmail.com | bzsjxhywrf@gmail.com
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
-bing_site_verification: 89CBB0BA5CCEC2C2C89C693CA3AEA794
+# github.ruofei.site
+# bing_site_verification: 89CBB0BA5CCEC2C2C89C693CA3AEA794
+# ruofei.site
+bing_site_verification: E9914CD56ECF657BB1D123AA72BBDDB0 # rf.wangchn@outlook.com
 
 # Yandex Webmaster tools verification.
 # See: https://webmaster.yandex.ru
-yandex_site_verification: 4e0929e8de9f26c2
+# github.rufoei.site
+# yandex_site_verification: 4e0929e8de9f26c2
+# ruofei.site
+yandex_site_verification: 38d04de0ea9967cd # Login as Google account with rf.wangchn@gmail.com
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification: 1cUs6ygl16
+# github.ruofei.site
+# baidu_site_verification: 1cUs6ygl16
+# ruofei.site
+baidu_site_verification: iqtrXTu0gF
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: true
@@ -534,7 +548,7 @@ mediumzoom: false
 
 # Vanilla JavaScript plugin for lazyloading images.
 # For more information: https://github.com/ApoorvSaxena/lozad.js
-lazyload: false
+lazyload: true
 
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js
@@ -574,11 +588,11 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active:
+  active: gitalk
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
-  lazyload: false
+  lazyload: true
   # Modify texts or order for any navs, here are some examples.
   nav:
     #disqus:
@@ -643,9 +657,9 @@ livere_uid: # <your_uid>
 gitalk:
   enable: true
   github_id: smpower # GitHub repo owner
-  repo: github.ruofei.site.gitalk # Repository name to store issues
-  client_id: 160ac0c01c2fcb4ba40e # GitHub Application Client ID
-  client_secret: 8e23ea664988f94df7464ddcbe09dad01bc2c18f # GitHub Application Client Secret
+  repo: ruofei.site.gitalk # Repository name to store issues
+  client_id: 57d78aea7ea945e16976 # GitHub Application Client ID
+  client_secret: 25953ac8037cf8fb54c53c8d958017215f204991 # GitHub Application Client Secret
   admin_user: ['smpower'] # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
@@ -668,7 +682,7 @@ rating:
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
-add_this_id:
+# add_this_id: ra-5e3282201b843dd7
 
 
 # ---------------------------------------------------------------
@@ -678,13 +692,13 @@ add_this_id:
 
 # Google Analytics
 google_analytics:
-  tracking_id: # <app_id>
+  tracking_id: UA-156423980-1 # <app_id>
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
 
 # Baidu Analytics
-baidu_analytics: # <app_id>
+# baidu_analytics: b13755a6de86c216ccfa39dc56ba14dc # <app_id>
 
 # Growingio Analytics
 growingio_analytics: # <project_id>
@@ -718,11 +732,11 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
-  total_visitors_icon: user
+  total_visitors_icon: false
   total_views: true
-  total_views_icon: eye
+  total_views_icon: false
   post_views: true
   post_views_icon: eye
 
@@ -795,8 +809,8 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: simple
-  icons: false
+  style: flat
+  icons: true
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
   # Offset also applied to label tag variables. This option can work with disabled note tag.
   light_bg_offset: 0
@@ -804,7 +818,7 @@ note:
 # Tabs tag
 tabs:
   transition:
-    tabs: false
+    tabs: true
     labels: true
 
 # PDF tag, requires two plugins: pdfObject and pdf.js
@@ -825,8 +839,8 @@ mermaid:
 
 # Sitemap
 sitemap:
-    path: sitemap.xml
-    rel: false
+  path: sitemap.xml
+  rel: false
 
 
 # ---------------------------------------------------------------
@@ -836,7 +850,7 @@ sitemap:
 # Use velocity to animate everything.
 # For more information: http://velocityjs.org
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
@@ -875,9 +889,10 @@ three:
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 # For more information: https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
-  onmobile: true # Display on mobile or not
-  color: "0,0,255" # RGB values, use `,` to separate
+  enable: true
+  onmobile: false # Display on mobile or not
+  # color: "0,0,255" # RGB values, use `,` to separate
+  color: "102,102,102" # RGB values, use `,` to separate
   opacity: 0.5 # The opacity of line: 0~1
   zIndex: -1 # z-index property of the background
   count: 99 # The number of lines
@@ -890,6 +905,11 @@ canvas_ribbon:
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
+
+# 侧栏粒子时钟
+diy_clock:
+  clock: true # 粒子时钟
+  runtime: true 
 
 
 #! ---------------------------------------------------------------
@@ -912,7 +932,7 @@ vendors:
   # Internal version: 4.7.0
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-  fontawesome:
+  fontawesome: //cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css
 
   # MathJax
   # mathjax: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
