@@ -126,7 +126,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   programming: /programming/ || code
-  supermemo: /supermemo/ || trophy
+  # supermemo: /supermemo/ || trophy
   #schedule: /schedule/ || calendar
   #commonweal: /404/ || heartbeat
   sitemap: /sitemap.xml || sitemap
