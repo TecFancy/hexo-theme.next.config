@@ -121,11 +121,11 @@ scheme: Gemini
 # External url should start with http:// or https://
 menu:
   home: / || home
-  #about: /about/ || user
+  about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  programming: /programming/ || code
+  # programming: /programming/ || code
   # supermemo: /supermemo/ || trophy
   #schedule: /schedule/ || calendar
   #commonweal: /404/ || heartbeat
@@ -169,9 +169,9 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/avatar.gif
+  url: /images/avatar.png
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 
@@ -393,7 +393,7 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: true
+  enable: false
   permalink: https://github.com/smpower
   title: Follow me on GitHub
 
