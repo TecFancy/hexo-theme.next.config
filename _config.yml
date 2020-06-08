@@ -125,6 +125,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
+  navigations: /navigations/ || map
   # programming: /programming/ || code
   # supermemo: /supermemo/ || trophy
   #schedule: /schedule/ || calendar
@@ -632,9 +633,9 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
-  appid: # Your leancloud application appid
-  appkey: # Your leancloud application appkey
+  enable: true
+  appid: 07EafDVccNlmKPoLwsJ7kUqy-gzGzoHsz # Your leancloud application appid
+  appkey: WQvMNkDxhW0E8FO6gtVgxfBF # Your leancloud application appkey
   notify: false # Mail notifier
   verify: false # Verification code
   placeholder: Just go go # Comment box placeholder
