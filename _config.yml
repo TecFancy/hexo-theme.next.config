@@ -910,7 +910,10 @@ canvas_ribbon:
 # 侧栏粒子时钟
 diy_clock:
   clock: true # 粒子时钟
-  runtime: true 
+  runtime: true
+
+# Google Adsense
+google_adsense: true
 
 
 #! ---------------------------------------------------------------

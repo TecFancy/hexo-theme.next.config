@@ -66,6 +66,10 @@
   <script src="{{ pace_js_uri }}"></script>
 {%- endif %}
 
+{%- if theme.google_adsense %}
+<script data-ad-client="ca-pub-6822798876342709" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{%- endif %}
+
 {# Export some Hexo Configurations to Front-End #}
 <script id="hexo-configurations">
   var NexT = window.NexT || {};
